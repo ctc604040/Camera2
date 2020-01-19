@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Camera</string>
+
+    <string-array name="brightness_list">
+        <item>明度1</item>
+        <item>明度2</item>
+        <item>明度3</item>
+    </string-array>
+
+    <string-array name="resolution_list">
+        <item>解像度1</item>
+        <item>解像度2</item>
+        <item>解像度3</item>
+    </string-array>
+</resources>

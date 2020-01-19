@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <!--
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="フラッシュ" />
+    -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="設定" />
+
+    <Switch
+        android:id="@+id/switch_flash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="フラッシュ" />
+
+    <Spinner
+        android:id="@+id/spinner_brightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/brightness_list"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/spinner_resolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/resolution_list"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>
